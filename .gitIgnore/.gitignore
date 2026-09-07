@@ -1,0 +1,22 @@
+# 1. Dependency folders (DO NOT push these heavy folders)
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# 2. Python Virtual Environment & Model Weights
+cv_service/venv/
+cv_service/yolov8n.pt
+__pycache__/
+*.pyc
+
+# 3. Sensitive Passwords & Keys
+.env
+server/.env
+
+# 4. Build output
+dist/
+client/dist/
+
+# 5. OS files
+.DS_Store
+Thumbs.db
